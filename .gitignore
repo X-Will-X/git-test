@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+coverage/
+
+# Caches
+.cache/
+.parcel-cache/
+.turbo/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS and temporary files
+Thumbs.db
+*.tmp
+*.temp
